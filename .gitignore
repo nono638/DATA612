@@ -1,0 +1,31 @@
+# Python virtual environment
+.venv/
+venv/
+
+# Raw datasets (large; downloaded separately — see README)
+data/
+archive*/
+
+# Instructor-provided course materials — not my work; don't republish publicly
+*.pdf
+*.docx
+syllabusSummer2026.pdf
+Dicussion3.txt
+discussion4.txt
+
+# Jupyter / Python caches
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+.ruff_cache/
+
+# OS / editor cruft
+.DS_Store
+Thumbs.db
+.vscode/
+
+# Personal / session-internal files — not coursework, don't publish
+CLAUDE.md
+INSTRUCTIONS.html
+CONCEPTS.html
+READMEs_offline.html

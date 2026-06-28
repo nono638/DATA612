@@ -1,0 +1,36 @@
+# DATA 612 — shared Python environment (Python 3.12 venv)
+# Core data-science + recommender-systems stack used across Projects 1-5 and the discussions.
+
+# --- numerical / data handling ---
+numpy
+pandas
+scipy
+
+# --- modeling / similarity / metrics ---
+scikit-learn
+
+# --- plotting ---
+matplotlib
+seaborn
+
+# --- notebooks ---
+jupyterlab
+notebook
+ipykernel
+
+# --- NLP for content-based filtering (tf-idf on movie summaries, Project 2) ---
+nltk
+
+# --- dataset download helper (optional; used if a Kaggle token is configured) ---
+kaggle
+
+# --- utilities ---
+tqdm
+requests
+
+# --- Spark (Project 5). Requires a JDK installed separately. ---
+pyspark
+
+# NOTE: scikit-surprise is intentionally NOT pinned here. It frequently fails to
+# build on Python 3.12, and we implement the recommender algorithms from scratch
+# (better for learning). Install it later only as an optional cross-check.
